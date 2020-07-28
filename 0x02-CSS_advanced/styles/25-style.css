@@ -382,7 +382,7 @@ ul.row {
 }
 
 .footer-address {
-  color: var(--footer-address);
+  color: var(--text-color);
 }
 
 .social-link {
