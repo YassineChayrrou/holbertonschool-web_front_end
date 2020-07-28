@@ -1,4 +1,5 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -347,4 +348,10 @@ ul.row {
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }

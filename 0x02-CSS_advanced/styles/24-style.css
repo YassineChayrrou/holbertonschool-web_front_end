@@ -1,4 +1,5 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -347,4 +348,38 @@ ul.row {
 [class^="col-"] {
   float: left;
   padding: 0.5rem;
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.footer-address {
+  color: var(--footer-address);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
+}
+
+.card.services .card-title {
+  margin: 0;
+}
+
+.card.services a {
+  display: block;
+  padding: 2rem;
+  background-color: var(--color-light-grey);
+}
+
+.card.services a:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  text-decoration: none;
 }
