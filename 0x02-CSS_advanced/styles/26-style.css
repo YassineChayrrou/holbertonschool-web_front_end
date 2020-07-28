@@ -207,8 +207,8 @@ a:active {
 .button:hover {
   color: var(--button-hover-color);
   text-decoration: var(--button-hover-text-decoration);
-  background-color: var(--button-hover-background);
-} 
+  background: var(--button-hover-background);
+}
 
 .visually-hidden {
   display: none;
@@ -369,7 +369,7 @@ ul.row {
   clear: both;
 }
 
-[class^="col-"] {
+[class*="col-"] {
   float: left;
   padding: 0.5rem;
 }
@@ -393,17 +393,17 @@ ul.row {
   fill: var(--text-color);
 }
 
-.card.services .card-title {
+.card-services .card-title {
   margin: 0;
 }
 
-.card.services a {
+.card-services a {
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey);
 }
 
-.card.services a:hover {
+.card-services a:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
   text-decoration: none;
@@ -413,7 +413,7 @@ ul.row {
   text-align: center;
 }
 
-.card-avatar {
+.card-testimonial .card-avatar {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
@@ -422,5 +422,5 @@ ul.row {
 .card-testimonial .card-quote cite {
   display: block;
   padding-top: 1rem;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
