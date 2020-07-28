@@ -147,9 +147,7 @@ template {
 }
 /*# sourceMappingURL=normalize.min.css.map */
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -166,12 +164,7 @@ body {
   line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
