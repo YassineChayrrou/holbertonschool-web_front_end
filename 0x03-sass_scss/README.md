@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A project that introduces Sass (Syntactically Awesome StyleSheets)
+A project that introduces Sass (Syntactically Awesome StyleSheets).
 
 Project Tasks deal with different challenges to experience your understanding of Sass such as:
 - Sass Basics
