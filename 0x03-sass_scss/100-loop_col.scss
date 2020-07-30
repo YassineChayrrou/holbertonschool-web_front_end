@@ -3,6 +3,6 @@
 {
   $var: 100 / $index;
   .col-#{$index} {
-    { width: #{$var * 1%}; }
+    width: #{$var * 1%};
   }
 }
