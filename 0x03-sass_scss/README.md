@@ -10,6 +10,8 @@ Project Task deal with different challenges to experience your understanding of 
 
 ## Resources
 
-[Sass documentation](https://sass-lang.com/)
+Sass official [documentation](https://sass-lang.com/)
+
+the [Sass-way](http://thesassway.com/) website
 
 Travesty media Sass Crash Course [@Youtube](https://www.youtube.com/watch?v=nu5mdN2JIwM)
