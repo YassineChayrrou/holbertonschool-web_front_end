@@ -1,6 +1,6 @@
 @for $index from 1 through 4
 {
-  col-#{$index} {
+  .col-#{$index} {
     @if $index == 1
     { width: 100%; }
     @if $index == 2
