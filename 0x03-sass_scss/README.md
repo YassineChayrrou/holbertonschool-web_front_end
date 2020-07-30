@@ -3,7 +3,8 @@
 ## Introduction
 
 A project that introduces Sass (Syntactically Awesome StyleSheets)
-Project Task deal with different challenges to experience your understanding of Sass such as:
+
+Project Tasks deal with different challenges to experience your understanding of Sass such as:
 - Sass Basics
 - Sass control directive
 - Tips on prefered methods to write Sass
