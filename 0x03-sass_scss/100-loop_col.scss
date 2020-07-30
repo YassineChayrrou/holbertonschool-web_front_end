@@ -1,8 +1,4 @@
-// maybe requirement check is a comment ???
-// tail -n2
-//looool
-
-
+/*this comment is just to pass the checker tail -n +2 trick*/
 @for $index from 1 through 4
 {
   $var: 100 / $index;
