@@ -177,7 +177,6 @@
   
   .row {
     display: flex;
-
   }
 
   ul.row {
@@ -200,10 +199,6 @@
   
   /* Navbar
       ============================= */
-  
-  .navbar-menu {
-    float: right;
-  }
   
   .nav {
     margin: 0;
@@ -251,16 +246,16 @@
   /* Header
       ============================= */
   
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .header {
     padding: var(--header-padding);
          position: relative;
          z-index: 3;
          background: transparent !important;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
   }
   
   /* Footer
@@ -367,6 +362,12 @@
     flex-direction: row-reverse;
   }
 
+  /* Section SERVICES ============================= */
+
+  .section-services .row {
+    flex-wrap: wrap;
+  }
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
@@ -440,16 +441,10 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-
-  /* Section SERVICES ============================= */
-
-  .section-services .row {
-    flex-wrap: wrap;
-  }
   
   /* Card SERVICES
       ============================= */
-
+  
   .card-services .card-title {
     margin: 0;
   }
@@ -500,3 +495,4 @@
     font-size: 10rem;
     z-index: -1;
   }
+  
