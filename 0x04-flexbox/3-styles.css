@@ -451,14 +451,16 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
-  
-  /* Card SERVICES
-      ============================= */
+
+  /* Section SERVICES ============================= */
 
   .section-services .row {
     flex-wrap: wrap;
   }
   
+  /* Card SERVICES
+      ============================= */
+
   .card-services .card-title {
     margin: 0;
   }
