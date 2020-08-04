@@ -201,11 +201,11 @@
       ============================= */
   
   .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-    display: flex;
   }
   
   .nav .nav-item {
@@ -375,13 +375,13 @@
   .section-services .row {
     flex-wrap: wrap;
   }
-  
-  /* Section ABOUT US  */
 
-  .section-about-us [class*="col-"] {
+  /* Section ABOUT US ============================= */
+
+  .section-about-us [class*='col-'] {
     align-self: center;
   }
-
+  
   /*** 4. CARD ***/
   
   /* Card (all styles)
@@ -509,4 +509,3 @@
     font-size: 10rem;
     z-index: -1;
   }
-  
