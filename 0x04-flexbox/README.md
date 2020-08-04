@@ -15,4 +15,4 @@ Goals of the project:
 
 ## resources
 
-* complete guide to flexbox on [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
+- complete guide to flexbox on [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
