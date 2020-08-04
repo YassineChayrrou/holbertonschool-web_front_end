@@ -12,6 +12,7 @@ Goals of the project:
 - apply different flex properties on flex containers and elements
 - design pages with flex in mind
 
+
 ## resources
 
 - complete guide to flexbox on [css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 
