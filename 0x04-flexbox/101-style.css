@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    height: 18rem;
+    width: 90rem; 
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 17rem;
+    color: white;
+    font-weight: 600;
+    font-family: "Bookman Old Style";
+}
+
+.box.box1 {
+    background-color: lightgreen;
+    height: 33%;
+    width: 9%;
+    font-size: 18px;
+}
+
+.box.box2 {
+    background-color: skyblue;
+    height: 43%;
+    width: 13%;
+    font-size: 30px;
+}
+
+.box.box3 {
+    background-color: #3e507a;
+    height: 70%;
+    width: 20%;
+    font-size: 70px;
+}
+
+.box.box4 {
+    background-color: #8d73dd;
+    height: 43%;
+    width: 13%;
+    font-size: 30px;
+}
+
+.box.box5 {
+    background-color: orange;
+    height: 33%;
+    width: 9%;
+    font-size: 18px;
+}
