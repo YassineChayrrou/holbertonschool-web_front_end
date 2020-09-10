@@ -23,6 +23,10 @@ a, a:hover, a:focus {
     color: #E0003C!important;
 }
 
+.d-flex {
+    border-bottom: 1px solid #E0003C!important;
+}
+
 .card, .card-footer {
     border: 1px solid #E0003C;
     border-radius: 1rem;
