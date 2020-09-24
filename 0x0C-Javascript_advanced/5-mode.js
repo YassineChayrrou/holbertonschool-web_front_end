@@ -17,4 +17,3 @@ function main () {
         document.getElementsByTagName("button")[2].style.backgroundColor = "black";
     });
 }
-main()
