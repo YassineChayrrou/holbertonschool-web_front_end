@@ -8,12 +8,11 @@ function changeMode (size, weight, transform, background, color) {
 }
 
 function main () {
-    const spooky = (function () { return changeMode(9, "bold", "uppercase", "pink", "green") });
-    const darkMode = (function () { return changeMode(12, "bold", "capitalize", "black", "white") });
-    const screamMode = (function () {return changeMode(12, "normal", "lowercase", "white", "black") });
-    document.getElementsByTagName("button")[0].addEventListener("click", spooky());
-    document.getElementsByTagName("button")[1].addEventListener("click", darkMode());
-    document.getElementsByTagName("button")[2].addEventListener("click", function () {
-        document.getElementsByTagName("button")[2].style.backgroundColor = "black";
-    });
+    const spooky = () => changeMode(9, "bold", "uppercase", "pink", "green")
+    const darkMode = () => changeMode(12, "bold", "capitalize", "black", "white")
+    const screamMode = () => changeMode(12, "normal", "lowercase", "white", "black")
+    document.getElementsByTagName("button")[0].addEventListener("click", () => spooky())
+    document.getElementsByTagName("button")[1].addEventListener("click", () => darkMode())
+    document.getElementsByTagName("button")[2].addEventListener("click", () => screamMode())
 }
+main();
