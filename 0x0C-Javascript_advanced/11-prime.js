@@ -20,4 +20,4 @@ for (let i = 0; i < 100; i++) {
     countPrimeNumbers();
 }
 const t1 = performance.now();
-console.log(`Execution time of printing countPrimeNumbers was ${t1 - t0} milliseconds.`);
+setTimeout(function () { console.log(`Execution time of printing countPrimeNumbers was ${t1 - t0} milliseconds.`); }, 0);
